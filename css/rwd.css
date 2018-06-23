@@ -15,5 +15,6 @@
     }
     body {
         overflow: hidden;
+        -moz-overflow:hidden;
     }
 }
