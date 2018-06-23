@@ -17,4 +17,17 @@
         overflow: hidden;
         -moz-overflow:hidden;
     }
+
+    @-moz-document url-prefix() { 
+        body {
+            overflow-x :hidden;
+            overflow-y: hidden;
+            position: relative;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+      }
+    
 }
